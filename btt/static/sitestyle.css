@@ -1,0 +1,58 @@
+/* navbar */
+.navbar-default {
+    background-color: #0066cc;
+    border-color: #E7E7E7;
+}
+/* Title */
+.navbar-default .navbar-brand {
+    color: #e6e6e6;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #ffffff;
+}
+/* Link */
+.navbar-default .navbar-nav > li > a {
+    color: #e6e6e6;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #ffffff;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #000000;
+    background-color: #E7E7E7;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #000000;
+    background-color: #D5D5D5;
+}
+/* Caret */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #777;
+    border-bottom-color: #777;
+}
+/* Dropdown Menu */
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #000000;
+    background-color: #ffffff;
+}
+/* Remove padding for plots but leave margin for touch scrolling on right */
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+   margin-right: 10px !important;
+}
+/* Add some margin for when columns collapse */
+[class*="col-"] {
+    margin-bottom: 15px;
+}
+
+/* Add a top margin to allow for fixed navbar */
+.top-buffer {
+   margin-top: 60px;
+}
